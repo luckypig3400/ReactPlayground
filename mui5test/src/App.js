@@ -1,6 +1,7 @@
 import Button from '@mui/material/Button'
 // https://mui.com/zh/material-ui/getting-started/usage/
-
+import { Typography } from '@mui/material'
+// https://mui.com/zh/material-ui/api/typography/
 import { Settings, Delete, Send } from '@mui/icons-material';
 // https://mui.com/zh/material-ui/icons
 // https://mui.com/material-ui/material-icons//
@@ -26,6 +27,10 @@ function App() {
       <Button variant="contained" endIcon={<Send />}>
         Send
       </Button>
+
+      <Typography variant="h3" component="p">
+        It's use h3 style but it's a p tag :)
+      </Typography>
     </div>
   );
 }
