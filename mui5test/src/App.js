@@ -5,6 +5,7 @@ import { Typography } from '@mui/material'
 import { Settings, Delete, Send } from '@mui/icons-material';
 // https://mui.com/zh/material-ui/icons
 // https://mui.com/material-ui/material-icons//
+import ResponsiveDrawer from './components/ResponsiveDrawer';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
       <Typography variant="h3" component="p">
         It's use h3 style but it's a p tag :)
       </Typography>
+      <ResponsiveDrawer>
+      </ResponsiveDrawer>
     </div>
   );
 }
