@@ -8,8 +8,7 @@ import ResponsiveDrawer from './components/ResponsiveDrawer';
 function App() {
   return (
     <div>
-      <ResponsiveDrawer>
-      </ResponsiveDrawer>
+      <ResponsiveDrawer/>
     </div>
   );
 }
